@@ -1,0 +1,22 @@
+.container{
+background-color: antiquewhite;  
+display: flex;
+position:absolute;
+left: 25%;
+top: 25%;
+align-content: center; 
+justify-content: center;
+height: 60%;
+width: 60%;
+}
+
+.form-group{
+    padding-bottom: 1rem;
+}
+input{
+    height: 2rem;
+    text-size-adjust:5 ;
+}
+i{
+   padding: 0.5rem;
+}

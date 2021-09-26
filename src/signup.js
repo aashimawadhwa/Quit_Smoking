@@ -1,4 +1,6 @@
 import react from "react"
+import './signup.css';
+
 
 const signup  = () => {
     return(
@@ -48,7 +50,7 @@ const signup  = () => {
 
                             
                         </form>
-                        
+
                     </div>
                 </div>
             </div>
