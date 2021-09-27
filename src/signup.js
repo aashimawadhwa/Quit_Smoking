@@ -51,7 +51,7 @@ const signup  = () => {
                                 <input type="text" name="Confirm Password" id="name" autoComplete="off" placeholder ="Confirm Password"></input>
                             </div>
                             <div className="from-group from-button">
-                                <input type="submit" name="signup" id="signup" className="form-submit" value="register"></input>
+                                <input type="submit" name="signup" id="signup" className="form-submit" value="SignUp"></input>
 
                             </div>
                             

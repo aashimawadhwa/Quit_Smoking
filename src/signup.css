@@ -1,3 +1,9 @@
+body{
+    margin-top: 0%;
+    background: -webkit-linear-gradient(to right,#fff, #FFE2DB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #FFE2DB);
+}
 .head{
     position: relative;
     left: 35%;
@@ -32,4 +38,9 @@ input{
 }
 i{
    padding: 0.5rem;
+}
+#signup
+{
+    height: 2rem;
+    width: 5rem;
 }
