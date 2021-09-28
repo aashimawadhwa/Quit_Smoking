@@ -4,6 +4,11 @@ body{
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fff, #FFE2DB);
 }
+.logo{
+position: fixed;
+left: -5rem;
+top: -2rem;
+}
 .head{
     position: relative;
     left: 35%;

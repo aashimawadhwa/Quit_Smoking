@@ -2,11 +2,18 @@ import { logDOM } from "@testing-library/react";
 import react from "react"
 import './signup.css';
 import image from './signup.gif'
+import logo from './logo.png'
 
 const signup  = () => {
     return(
         
         <>
+        <div className="logo">
+                            <figure>
+                                <img src ={logo} alt="healthy" height="150px" width="180px"/>
+                            </figure>
+
+        </div>
         <div className="head">
             <h1>Quit...yes Quit Today</h1>
             <h2>Steping towards healthy, free and focused life!!</h2>
