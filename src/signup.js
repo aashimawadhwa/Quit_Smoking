@@ -15,8 +15,10 @@ const signup  = () => {
 
         </div>
         <div className="head">
-            <h1>Quit...yes Quit Today</h1>
-            <h2>Steping towards healthy, free and focused life!!</h2>
+           
+        <p className="head-content"> Quit...yes Quit Today <br></br> <br></br>Steping towards healthy, free and focused life!!</p>
+            {/* <a href="#">Quit...yes Quit Today</a>
+            <a href="#">Steping towards healthy, free and focused life!!</a> */}
         </div>
         <section className="signup">
             <div className = "container ">
