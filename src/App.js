@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import './signup';
 import signup from './signup';
-import Footer from './footer';
+import './homepage';
+import homepage from './homepage';
 
 function App() {
-  return signup ();
+
+  return homepage();
 }
 
 export default App;

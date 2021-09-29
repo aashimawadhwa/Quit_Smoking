@@ -16,7 +16,7 @@ const signup  = () => {
         </div>
         <div className="head">
            
-        <p className="head-content"> Quit...yes Quit Today <br></br> <br></br>Steping towards healthy, free and focused life!!</p>
+        <p className="head-content"> QUIT...YES QUIT TODAY <br></br> <br></br>Steping towards healthy, free and focused life!!</p>
            
         </div>
         <section className="signup">
