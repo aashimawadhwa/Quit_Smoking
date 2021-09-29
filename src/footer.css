@@ -1,0 +1,12 @@
+.footer {
+    margin-top: 1rem;
+    padding: 0rem;
+    text-align: center;
+    background-color: rgb(19, 18, 18);
+    color: lavenderblush;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}

@@ -3,7 +3,7 @@ import react from "react"
 import './signup.css';
 import image from './signup.gif'
 import logo from './logo.png'
-
+import "./footer.css";
 const signup  = () => {
     return(
         
@@ -17,8 +17,7 @@ const signup  = () => {
         <div className="head">
            
         <p className="head-content"> Quit...yes Quit Today <br></br> <br></br>Steping towards healthy, free and focused life!!</p>
-            {/* <a href="#">Quit...yes Quit Today</a>
-            <a href="#">Steping towards healthy, free and focused life!!</a> */}
+           
         </div>
         <section className="signup">
             <div className = "container ">
@@ -60,7 +59,7 @@ const signup  = () => {
                                 <input type="text" name="Confirm Password" id="name" autoComplete="off" placeholder ="Confirm Password"></input>
                             </div>
                             <div className="from-group from-button">
-                                <input type="submit" name="signup" id="signup" className="form-submit" value="SignUp"></input>
+                                <input type="submit" name="signup" id="signup" className="form-submit" value="Sign Up"></input>
 
                             </div>
                             
@@ -88,10 +87,18 @@ const signup  = () => {
 
             </div>
         </div>
+        <footer>
+        <div className="footer">
+    <p>Made with ♥️ by Aashima Wadhwa</p>
+  </div>
+
+        </footer>
     </div>
+    
         </section>
         </>
-    )
+        
+    );
 }
  export default signup
 

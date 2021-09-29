@@ -1,59 +1,94 @@
-body{
+body {
     margin-top: 0%;
-    background: -webkit-linear-gradient(to right,#fff, #FFE2DB);
+    background: -webkit-linear-gradient(to right, #fff, #FFE2DB);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fff, #FFE2DB);
+    overflow-x: hidden;
 }
-.logo{
-position: fixed;
-left: -5rem;
-top: -2rem;
+
+.logo {
+    position: fixed;
+    left: -5rem;
+    top: -2rem;
 }
-.head{
+
+.head {
     position: relative;
     left: 25%;
     margin-top: -2%;
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-size:2.5rem ;
-	font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: bold;
     font-family: "Ubuntu";
 }
-.head:hover{
+
+.head:hover {
     transform: scale(1.04);
-    color: #ee6408;
+    color: #17445E;
     transition: 0.8s;
 }
-.container{
-display: flex;
-position:fixed;
-left: 25%;
-top: 25%;
-align-content: center; 
-justify-content: center;
-height: 0%;
-width: 30%;
-transform: translate(-25%, -25%);
-font-family: 'Ubuntu';
+
+.container {
+    display: flex;
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    align-content: center;
+    justify-content: center;
+    height: 0%;
+    width: 30%;
+    transform: translate(-25%, -25%);
+    font-family: 'Ubuntu';
 }
-.signup-image{
+
+.signup-image {
     top: 22%;
     left: 45%;
-    position:fixed;
+    position: fixed;
 
 }
 
-.form-group{
+.form-group {
     padding-bottom: 1rem;
+
 }
-input{
+
+.signup-content {
+    max-width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
+}
+
+input {
     height: 2rem;
-    text-size-adjust:5 ;
+    text-size-adjust: 5;
 }
-i{
-   padding: 0.5rem;
+
+i {
+    padding: 0.5rem;
 }
-#signup
-{
-    height: 2rem;
-    width: 5rem;
+
+#signup {
+
+    font-weight: bold;
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+#signup:hover {
+    /* background-color: #FFE2DB; */
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
 }
