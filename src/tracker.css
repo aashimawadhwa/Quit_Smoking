@@ -1,0 +1,16 @@
+body {
+    margin-top: 0%;
+    background: -webkit-linear-gradient(to right, #fff, #FFE2DB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #FFE2DB);
+    overflow-x: hidden;
+    margin-bottom: 0%;
+    
+   
+}
+
+.logo {
+    position: fixed;
+    left: -5rem;
+    top: -2rem;
+}
