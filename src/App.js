@@ -9,7 +9,7 @@ import tracker from './tracker';
 
 function App() {
 
-  return homepage();
+  return tracker();
 }
 
 export default App;
