@@ -1,4 +1,4 @@
-#QUIT_SMOKING
+# QUIT_SMOKING
 
 # Getting Started with Create React App
 
