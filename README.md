@@ -1,9 +1,5 @@
 # QUIT_SMOKKING 🚭
-
- This website is an eager initiative to help people break certain habit patterns which are though to begin with and requires alot of support.
-besides we also want to help the youth in educating thems about how injirious these habits are and can cause big loss in long run.
-we've tried to curate a safe place for everyone to come up and open up in every way possible .so,it can strenghten and encourage them to leave and break unhealthy habits.
-
+This website is an eager initiative to help people break certain habit patterns which are though to begin with and requires a lot of support. besides we also want to help the youth in educating them about how injurious these habits are and can cause big loss in long run. we've tried to curate a safe place for everyone to come up and open up in every way possible . so,it can strengthen and encourage them to leave and break unhealthy habits.
 ## Features ✨
 - Implements firebase Authentication for *sign-up and login page*
 - Avail all the basic resources at one place. (  Guidance and awarness , Habit breaker tracker, Motivation , Fun facts and streaks)
