@@ -1,7 +1,8 @@
 import { logDOM } from "@testing-library/react";
 import react from "react"
-import logo from './logo.png'
-import "./footer.css";
+
+import logo from '../logo.png'
+import "../footer.css";
 import "./tracker.css"
 
 

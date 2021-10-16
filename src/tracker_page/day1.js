@@ -1,8 +1,8 @@
 import { logDOM } from "@testing-library/react";
 import react from "react";
 import './day1.css';
-import "./footer.css";
-import logo from './logo.png'
+import "../footer.css";
+import logo from '../logo.png';
 
 
 const day1  = () => {

@@ -1,15 +1,26 @@
 import { logDOM } from "@testing-library/react";
 import react from "react"
+import { useHistory } from "react-router-dom";
 import './homepage.scss';
-import './homepage';
-import logo from './logo.png'
-import "./footer.css";
-import homepage1 from './homepage1.png'
-import slider1 from './slider1.png'
-import slider2 from './slider2.png'
-import slider3 from './slider3.png'
+import logo from '../logo.png'
+import "../footer.css";
+import homepage1 from '../homepage1.png'
+import slider1 from '../slider1.png'
+import slider2 from '../slider2.png'
+import slider3 from '../slider3.png'
+import { Button } from "react-bootstrap";
+// import tracker from "../tracker_page/tracker.js";
 
 const homepage  = () => {
+ 
+
+  const routeChange = () =>{ 
+    let path = '../tracker_page/tracker'; 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    let history = useHistory();
+    history.push(path);
+  }
+
     return(
         
         <>
@@ -24,10 +35,10 @@ const homepage  = () => {
 
         <div className= "wrap">
       
-         <a class="btn" href="#">Guidance</a>
-         <a class="btn" href="#">Tracker</a>
-         <a class="btn" href="#">streak</a>
-         <a class="btn" href="#">About</a>
+         <Button class="btn" href="#" >Guidance</Button>
+         <Button class="btn" href="tracker">Tracker</Button>
+         <Button class="btn" href="#">streak</Button>
+         <Button class="btn" href="#">About</Button>
         </div>
 
         <div class="container1">

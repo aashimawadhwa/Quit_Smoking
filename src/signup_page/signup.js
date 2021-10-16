@@ -1,9 +1,9 @@
 import { logDOM } from "@testing-library/react";
 import react from "react"
 import './signup.css';
-import image from './signup.gif'
-import logo from './logo.png'
-import "./footer.css";
+import image from '../signup.gif'
+import logo from '../logo.png'
+import "../footer.css";
 const signup  = () => {
     return(
         
