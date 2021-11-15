@@ -7,7 +7,7 @@ This website is an eager initiative to help people break certain habit patterns 
 ## Features ✨
 - Implements firebase Authentication for *sign-up and login page*
 - Avail all the basic resources at one place. (  Guidance and awarness , Habit breaker tracker, Motivation , Fun facts and streaks)
-- Enables user to be vulnerable and connect with likely circumstances.
+- Enables user to be vulnerable and connect with people who have been through likely circumstances.
 
 ![Screenshot from 2021-10-16 21-18-18](https://user-images.githubusercontent.com/73706697/137594016-026ddc75-63a7-4e55-ae08-bfa27ab48464.png)
 ![Screenshot from 2021-10-16 21-19-10](https://user-images.githubusercontent.com/73706697/137594023-be3df3cd-7d27-43e0-a5f1-342600d432dc.png)
@@ -22,15 +22,17 @@ This website is an eager initiative to help people break certain habit patterns 
 - **IDE**: VS Code
 - **Design**: Canva
 - **Version Control**: Git and GitHub 
+## 📌 Getting Started ⭐
 
+Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
 
-
-
-
-
-
-
-
+- If you don't have git on your machine, [install](https://help.github.com/articles/set-up-git/) it.
+- [Watch this video to get started, if you have no clue about open source](https://youtu.be/SL5KKdmvJ1U)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
+- [How to create an Issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-issues/creating-an-issue)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
  
 
 
