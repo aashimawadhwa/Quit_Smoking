@@ -9,6 +9,8 @@ import tracker from './tracker_page/tracker';
 function App() {
    return tracker(
   
+   
+   
    //  <Router>
       //       <div>
       //         <Link to="/">homepage</Link>
